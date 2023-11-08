@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['can', 'milk_jug', 'non_white_jug', 'plastic_bottle']
+
+roboflow:
+  workspace: aditya-raj-kmypu
+  project: waste-tfpi0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aditya-raj-kmypu/waste-tfpi0/dataset/1
